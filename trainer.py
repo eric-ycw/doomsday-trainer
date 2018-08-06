@@ -87,6 +87,7 @@ def print_info():
 def main():
     print('Type "help" to view commands')
     print('You can change trainer settings in settings.ini')
+    print('Dates are given in y/m/d format')
     command = input('')
     while True:
         if command == 'help':
